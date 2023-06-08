@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header';
 import './Home.css'
 import Featured from '../../components/Featured/Featured';
 import Footer from '../../components/Footer/Footer';
+import PropartyList from '../../components/PropartyList/PropartyList';
 const Home = () => {
     return (
         <div>
@@ -12,10 +13,10 @@ const Home = () => {
         <div className="homeContainer">
           <Featured/>
           <h1 className="homeTitle">Browse by property type</h1>
-           {/* <PropertyList/>
+          <PropartyList/>
           <h1 className="homeTitle">Homes guests love</h1>
-          <FeaturedProperties/>
-          <MailList/> */}
+          {/* <FeaturedProperties/> */}
+          {/* <MailList/>  */}
           <Footer/>  
         </div> 
       </div>
